@@ -47,7 +47,7 @@ figure {
   flex-shrink: 0;
 }
 
-img {
+#anh1 {
   max-width: 100%;
   border: 1px solid #333;
   margin-top: 40px;
@@ -71,4 +71,9 @@ small {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
+}
+#anh2 {
+  width: 40px;
+  height: auto;
+  filter: invert(1);
 }
