@@ -221,3 +221,66 @@ header {
     flex-direction: column;
   }
 }
+.latest-works {
+  padding: 80px 0;
+}
+
+.project-card {
+  background-color: #a3cfbe; 
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.project-content {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.project-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.project-desc {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.project-image {
+  flex: 1;
+  text-align: right;
+}
+
+.project-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.btn-detail,
+.btn-talk {
+  display: inline-block;
+  padding: 12px 35px;
+  border: 1px solid #ef5350; 
+  color: #ef5350;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.btn-detail:hover {
+  background: #ef5350;
+  color: #fff;
+}
+
